@@ -1,0 +1,528 @@
+:root{    
+    --maintextcolor: #000; /* var(--maintextcolor)*/
+    --mainbodycolor: repeating-linear-gradient(#c9e2e2, #ddd7f3);/*  var( --mainbodycolor)*/
+    --mainbutcolor: rgb(50, 79, 185);/*  var( --mainbutcolor)*/
+    --mainbuthovercolor: rgb(64, 172, 205);/*  var( --mainbuthovercolor)*/
+    --mainbordercolor: rgb(64, 172, 205);/*  var( --mainbordercolor)*/
+
+    --darktextcolor:#fff;/* var(--darktextcolor) не расставлен*/
+    --darkbodycolor:repeating-linear-gradient(#0b2525, #2f2e32);/*  var( --darkbodycolor)*/
+    --darkbutcolor:rgb(33, 38, 57);/*  var( --darkbutcolor)*/
+    --darkbuthovercolor:rgb(10, 17, 44);/*  var( --darkbuthovercolor)*/
+    --darkbordercolor:rgb(13, 21, 49);/*  var( --darkbordercolor)*/
+
+}
+h1,h2,h3,h4,h5,h6,div, p {
+    color: var(--maintextcolor);
+}
+body.dark h1,body.dark h2,body.dark h3,body.dark h4,body.dark h5,body.dark h6,body.dark div, body.dark p {
+    color: var(--darktextcolor);
+}
+
+a.btn-toggle {text-align: center;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.08);
+    -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.08);
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.08);
+    color: var(--maintextcolor);
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    padding: 8px 16px;
+    margin: 0px auto;
+    text-decoration: none;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.075);
+    -webkit-transition: background-color 0.1s linear;
+    -moz-transition: background-color 0.1s linear;
+    -o-transition: background-color 0.1s linear;
+    transition: background-color 0.1s linear;
+    vertical-align: middle;}
+
+    body.dark a.btn-toggle {
+        background-color:  var( --mainbutcolor);
+        border: 1px solid var( --mainbordercolor);
+    }
+    
+    body.dark a.btn-toggle:hover {
+        background-color: var( --mainbuthovercolor);
+    }
+    
+   a.btn-toggle {
+        background-color:  var( --darkbutcolor);
+        border: 1px solid var( --darkbordercolor);
+        color: var(--darktextcolor);
+    }
+    
+    a.btn-toggle {
+        background-color: var( --darkbuthovercolor);
+    }
+
+
+a.but {
+    text-align: center;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.08);
+    -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.08);
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.08);
+    color: var(--maintextcolor);
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    padding: 8px 16px;
+    margin: 0px auto;
+    text-decoration: none;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.075);
+    -webkit-transition: background-color 0.1s linear;
+    -moz-transition: background-color 0.1s linear;
+    -o-transition: background-color 0.1s linear;
+    transition: background-color 0.1s linear;
+
+    vertical-align: middle;
+}
+
+a.but {
+    background-color:  var( --mainbutcolor);
+    border: 1px solid var( --mainbordercolor);
+}
+
+a.but:hover {
+    background-color: var( --mainbuthovercolor);
+}
+
+body.dark a.but {
+    background-color:  var( --darkbutcolor);
+    border: 1px solid var( --darkbordercolor);
+    color: var(--darktextcolor);
+}
+
+body.dark a.but:hover {
+    background-color: var( --darkbuthovercolor);
+}
+
+input.but {
+    text-align: center;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.08);
+    -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.08);
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.08);
+    color:  var(--maintextcolor);
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    padding: 8px 16px;
+    margin: 0px auto;
+    text-decoration: none;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.075);
+    -webkit-transition: background-color 0.1s linear;
+    -moz-transition: background-color 0.1s linear;
+    -o-transition: background-color 0.1s linear;
+    transition: background-color 0.1s linear;
+    vertical-align: middle;
+}
+
+input.but {
+    background-color:  var( --mainbutcolor);
+    border: 1px solid var( --mainbordercolor);
+}
+
+input.but:hover {
+    background-color: var( --mainbuthovercolor);
+}
+
+body.dark input.but {
+    background-color:  var( --darkbutcolor);
+    border: 1px solid var( --darkbordercolor);
+    color: var(--darktextcolor);
+}
+
+body.dark input.but:hover {
+    background-color: var( --darkbuthovercolor);
+}
+
+input.star {
+    text-align: center;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.08);
+    -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.08);
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.08);
+    color:  var(--maintextcolor);
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    padding: 8px 16px;
+    margin: 0px auto;
+    text-decoration: none;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.075);
+    -webkit-transition: background-color 0.1s linear;
+    -moz-transition: background-color 0.1s linear;
+    -o-transition: background-color 0.1s linear;
+    transition: background-color 0.1s linear;
+    vertical-align: middle;
+    height: 40px;
+    width: 40px;
+
+}
+
+input.star {
+    background-color:  var( --mainbutcolor);
+    border: 1px solid var( --mainbordercolor);
+}
+
+input.star:hover {
+    background-color: var( --mainbuthovercolor);
+    
+}
+
+body.dark input.star {
+    background-color:  var( --darkbutcolor);
+    border: 1px solid var( --darkbordercolor);
+}
+
+body.dark input.star:hover {
+    background-color: var( --darkbuthovercolor);
+    
+}
+
+body {
+    
+    background-position: center;
+    background-size: auto;
+    background-image:var( --mainbodycolor);
+}
+body.dark{background-image:var( --darkbodycolor);}
+
+div.header {
+    border-radius: 4px;
+    color:  var(--maintextcolor);
+    font-size: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-optical-sizing: inherit;
+    background: linear-gradient(to bottom left, var( --mainbuthovercolor),  var( --mainbutcolor));
+    text-align: center;
+    margin: 0 0 7px 0;
+}
+body.dark div.header{
+    color:  var(--darktextcolor);
+    background: linear-gradient(to bottom left, var( --darkbuthovercolor),  var( --darkbutcolor));
+}
+
+table.tab {
+    text-align: center;
+    border-radius: 40px;
+    -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.08);
+    -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.08);
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.08);
+    color:  var(--maintextcolor);
+    display: inline-block;
+    width: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    padding: 8px 16px;
+    margin: 0px auto;
+    text-decoration: none;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.075);
+    -webkit-transition: background-color 0.1s linear;
+    -moz-transition: background-color 0.1s linear;
+    -o-transition: background-color 0.1s linear;
+    transition: background-color 0.1s linear;
+    background-color:  var( --mainbutcolor);
+    border: 1px solid var( --mainbordercolor);
+
+    vertical-align: middle;
+}
+
+body.dark table.tab {
+    color: var(--darktextcolor);
+    background-color:  var( --darkbutcolor);
+    border: 1px solid var( --darkbordercolor);
+}
+
+table.tab1 {
+    text-align: center;
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.08);
+    -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.08);
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.08);
+    color: rgb(27, 20, 9);
+    display: inline-block;
+    width: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    padding: 2px 2px;
+    margin: 0px auto;
+    text-decoration: none;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.075);
+    -webkit-transition: background-color 0.1s linear;
+    -moz-transition: background-color 0.1s linear;
+    -o-transition: background-color 0.1s linear;
+    transition: background-color 0.1s linear;
+    background-color: rgb(225, 245, 225);
+    border: 5px solid rgb(248, 153, 0);
+
+    vertical-align: middle;
+}
+
+
+
+a.media {
+    text-align: center;
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.08);
+    -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.08);
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.08);
+    color: #222;
+    height: 400px;
+    width: 300px;
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    padding: 8px 16px;
+    margin: 20px 10px 0;
+    text-decoration: none;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.075);
+    -webkit-transition: background-color 0.1s linear;
+    -moz-transition: background-color 0.1s linear;
+    -o-transition: background-color 0.1s linear;
+    transition: background-color 0.1s linear;
+    position: relative;
+    vertical-align: middle;
+}
+
+a.media {
+    background-color: var( --mainbuthovercolor);
+    border: 1px solid var( --mainbordercolor);
+}
+
+a.media:hover {
+    background-color:  var( --mainbutcolor);
+    color:  var(--maintextcolor);
+}
+
+body.dark a.media {
+    background-color: var( --darkbuthovercolor);
+    border: 1px solid var( --darkbordercolor);
+    color: #eee;
+}
+
+body.dark a.media:hover {
+    background-color:  var( --darkbutcolor);
+    color:  var(--darktextcolor);
+}
+
+input.txt {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    color: #222;
+    height: 40px;
+    margin: 20px 10px 0;
+}
+
+fieldset.filter {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    color:  var(--maintextcolor);
+    margin: 20px 10px 0;
+    columns: 2;
+    -webkit-columns: 2;
+    -moz-columns: 2;
+}
+
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position:relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: var( --mainbuthovercolor);
+    min-width: 400px;
+    color: black;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+body.dark .dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: var( --darkbuthovercolor);
+    min-width: 400px;
+    color: black;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+    background-color: var( --mainbuthovercolor);
+}
+
+body.dark .dropdown-content a:hover {
+    background-color: var( --darkbuthovercolor);
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+img.media {
+height: 200px;
+width: 290px;
+border-radius: 20px;
+}
+
+
+/*_______________________________________________________________________________________________________________________________
+_______________________________________________________________________________________________________________________________
+_______________________________________________________________________________________________________________________________*/
+.modal {
+    position: fixed; /* фиксированное положение */
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0,0,0,0.5); /* фон */
+    z-index: 1050;
+    opacity: 0; /* по умолчанию модальное окно прозрачно */
+    -webkit-transition: opacity 200ms ease-in; 
+    -moz-transition: opacity 200ms ease-in;
+    transition: opacity 200ms ease-in; /* анимация перехода */
+    pointer-events: none; /* элемент невидим для событий мыши */
+    margin: 0;
+    padding: 0;
+}
+
+/* При отображении модального окно */
+.modal:target {
+    opacity: 1; /* делаем окно видимым */
+	  pointer-events: auto; /* элемент видим для событий мыши */
+    overflow-y: auto; /* добавляем прокрутку по y, когда элемент не помещается на страницу */
+}
+/* ширина модального окна и его отступы от экрана */
+.modal-dialog {
+    position: relative;
+    width: auto;
+    margin: 10px;
+}
+@media (min-width: 576px) {
+  .modal-dialog {
+      max-width: 500px;
+      margin: 30px auto; /* отображение окна по центру */
+  }
+}
+/* Стили для блока с контентом окна */ 
+.modal-content {
+    position: relative;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    background-color: #fff;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    border: 1px solid rgba(0,0,0,.2);
+    border-radius: .3rem;
+    outline: 0;
+}
+body.dark .modal-content{
+    background-color: #000;
+    color:#fff;
+}
+@media (min-width: 768px) {
+  .modal-content {
+      -webkit-box-shadow: 0 5px 15px rgba(0,0,0,.5);
+      box-shadow: 0 5px 15px rgba(0,0,0,.5);
+  }
+}
+/* Стили заголовка окна */
+.modal-header {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: 15px;
+    border-bottom: 1px solid #eceeef;
+}
+body.dark .modal-header{
+    background-color: #000;
+    color:#fff;
+}
+.modal-title {
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 1.5;
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+body.dark .modal-title{
+    background-color: #000;
+    color:#fff;
+}
+/* Стили кнопки "х" ("Закрыть")  */
+.close {
+    float: right;
+    font-family: sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1;
+    color: #000;
+    text-shadow: 0 1px 0 #fff;
+    opacity: .5;
+    text-decoration: none;
+}
+/* Стили для закрывающей кнопки в фокусе или наведении */
+.close:focus, .close:hover {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+    opacity: .75;
+}
+/* Стили блока основного содержимого окна */
+.modal-body {
+    color: #000;
+  position: relative;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1 1 auto;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 15px;
+    overflow: auto;
+}
+body.dark .modal-body{
+    background-color: #000;
+    color:#fff;
+}
+.prokrutka {
+    height: 400px; /* высота нашего блока */
+    width: 600px; /* ширина нашего блока */
+    background: #fff; /* цвет фона, белый */
+    border: 1px solid #C1C1C1; /* размер и цвет границы блока */
+    overflow-x: scroll; /* прокрутка по горизонтали */
+    overflow-y: scroll; /* прокрутка по вертикали */
+}
+
+    
